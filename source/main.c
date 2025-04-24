@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
     NsApplicationControlData *buf=NULL;
     u64 outsize=0;
     res = nsListApplicationRecord(appRecords, 1024, 0,  &actualAppRecordCnt);
-
+    srand(time(0));
     appletRequestLaunchApplication(appRecords[rand() % actualAppRecordCnt].application_id, NULL);
 
 
