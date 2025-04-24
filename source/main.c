@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
+
 
 // Include the main libnx system header, for Switch development
 #include <switch.h>
@@ -52,4 +54,3 @@ int main(int argc, char* argv[])
     consoleExit(NULL);
     return 0;
 }
-
